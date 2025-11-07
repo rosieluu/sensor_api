@@ -12,11 +12,11 @@ def create_app() -> dict:
     (Not realistic, but we keep things simple)
     """
 
-    store_name = ["Lille", "Paris", "Lyon", "Toulouse", "Marseille"]
-    store_avg_visit = [3000, 8000, 6000, 2000, 1700]
-    store_std_visit = [500, 800, 500, 400, 100]
-    perc_malfunction = [0.05, 0.1, 0.08, 0.05, 0.05]
-    perc_break = [0.05, 0.08, 0.05, 0.02, 0]
+    store_name = ["Lille", "Paris", "Lyon", "Toulouse", "Marseille","Nice", "Bordeaux", "Nantes"]
+    store_avg_visit = [3000, 8000, 6000, 2000, 1700, 2500, 4000, 3500]
+    store_std_visit = [500, 800, 500, 400, 100, 300, 600, 700]
+    perc_malfunction = [0.05, 0.1, 0.08, 0.05, 0.05, 0.04, 0.06, 0.07]
+    perc_break = [0.05, 0.08, 0.05, 0.02, 0.0, 0.03, 0.04, 0.01]
 
     store_dict = dict()
 
