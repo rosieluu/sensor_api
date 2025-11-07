@@ -1,0 +1,16 @@
+# Fichiers et dossiers à ignorer lors du déploiement
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.git/
+.gitignore
+README.md
+tests/
+*.log
+.DS_Store
